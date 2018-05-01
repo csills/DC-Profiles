@@ -35,11 +35,22 @@ body {
 	font-size: 18px;
 }
 
-.main-container .btn {
+.main-container .btn-primary {
 	margin-top: 30px;
 }
 
+.main-container .btn-secondary {
+	margin-top: 10px;
+	color: #fff;
+    background-color: #BA5003;
+    border-color: #BA5003;
+}
 
+.main-container .btn-secondary:hover {
+    color: #fff;
+    background-color: #E47D31;
+    border-color: #E47D31;
+}
 .container {
 	display: flex;
 	justify-content: center;
